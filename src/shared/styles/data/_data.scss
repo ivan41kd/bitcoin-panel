@@ -1,0 +1,29 @@
+.data{
+    &__items{
+        display: flex;
+        gap: 10px;
+        max-height: 300px;
+        overflow: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    &__item{
+        background-color: #eeeeee63;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid transparent;
+        cursor: pointer;
+        width: 100%;
+    }
+    &__item.active{
+
+        border: 1px solid #000;
+        background-color: #ffffffa1;
+
+    }
+
+}
